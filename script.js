@@ -6,3 +6,16 @@ document.getElementById("askNameFromUser").onclick = function(){
     let fullName = firstName + " " + lastName
     console.log(fullName)
 }
+
+
+document.getElementById("Comaparsionoperator").onclick = function(){
+    let num1 = 10;
+    let num2 = 14;
+    
+    if(num1 == num2){
+        console.log("yes , your condition is true")
+    }
+    else{
+        console.log("No , your condition is false ")
+    }
+}
