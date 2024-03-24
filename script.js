@@ -19,3 +19,51 @@ document.getElementById("Comaparsionoperator").onclick = function(){
         console.log("No , your condition is false ")
     }
 }
+
+
+// document.getElementById("love").onclick = function(){
+//     let age = +prompt("Enter your age");
+//     if(age>=18)
+//     {
+//          let weight = +prompt("enter your weight")
+//     }
+//     if(weight<=65)
+//     {
+//         console.log("you are young man")
+//     }
+//     else{
+//         console.log("you are fat man")
+//     }
+// }
+
+
+//     else
+//      {
+//         console.log("you are baby")
+
+//         }
+    
+
+
+document.getElementById("love").onclick = function(){
+    let age = +prompt("your age?")
+    
+    if(age >= 18){
+        let weight = +prompt("your weight")
+    
+        if (weight<=70){
+            console.log("your are smart man")
+        }
+        else{
+            console.log("you are a fat man")
+        }
+    }
+    else{
+        console.log("you are a baby")
+    }
+    }
+    
+
+
+    
+
